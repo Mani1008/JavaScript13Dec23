@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2_Assignment</title>
+</head>
+<body>
+
+Q.1 What are the differences between var, let and const?
+Ans. In JavaScript, users can declare a variable using 3 keywords that are var, let, and const.
+
+Var: (a) The scope of the var keyword is the global or function scope. It means variables defined outside the function can be accessed globally, and variables defined inside a particular function can be accessed within the function.
+(b) It can be updated and re-declared into the scope.
+(c) It can be declared without initialization.
+(d) It can be accessed without initialization as its default value is “undefined”.
+
+Let: (a) The scope of a let variable is only block scoped. It can’t be accessible outside the particular block ({block}).
+(b) It can be updated but cannot be re-declared into the scope.
+(c) It can be declared without initialization.
+(d) It cannot be accessed without initialization otherwise it will give ‘referenceError’.
+
+Const: (a) The scope of a const variable is block scope.
+(b) It cannot be updated or re-declared into the scope.
+(c) It cannot be declared without initialization.
+(d) It cannot be accessed without initialization, as it cannot be declared without initialization.
+
+
+Q.2 Difference between undefined vs not defined vs NaN?
+Ans.The main difference between "undefined" and "not defined" is that "undefined" is a value that can be assigned to a variable, while "not defined" indicates that a variable does not exist.
+NaN means the value is Not A Number. Null is a value which you can use when you yourself want assign a empty value to a variable.
+
+
+Q.3 What is difference between null and undefined and where to use what?
+Ans. Undefined means the variable has been declared, but its value has not been assigned. Null means an empty value or a blank value.
+Null: A null value in JavaScript is used for referring absence of any object value and if any function or variable returns null, then we can infer that the object could not be created.
+Undefined: 
+
+
+Q.4 what is execution context in javascript?
+Ans. When the JavaScript engine scans a script file, it makes an environment called the Execution Context that handles the entire transformation and execution of the code. During the context runtime, the parser parses the source code and allocates memory for the variables and functions.
+
+
+Q.5 What is use of prompt in JavaScript? 
+Ans. used to display a dialog box with an optional message prompting the user to input some text. It is often used if the user wants to input a value before entering a page. It returns a string containing the text entered by the user, or null.
+
+
+Q.6 Why JavaScript is called a Dyanmic Language?
+Ans. JavaScript is a dynamically typed language, which means that data types of variables are determined by the value they hold at runtime and can change throughout the program as we assign different values to them.
+    
+</body>
+</html>
